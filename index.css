@@ -1,0 +1,64 @@
+/*{
+    padding: 0;
+    margin: 0;
+}*/
+nav{
+    background-color: rgb(29, 68, 153);
+    color: white;
+    padding: 20px;
+}
+
+li,h1,ul{
+    display: inline;
+}
+li{
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(7, 7, 7);
+}
+ul{
+    margin-left: 60%;
+}
+.search{
+    text-align: center;
+    padding: 50px;
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+    background-image: url(./images.jfif);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 740px;
+}
+
+.box{
+    border: 2px solid black;
+    display: inline-block;
+    width: 225px;
+    text-align: center;
+}
+.box:hover{
+    color: white;
+    background-color: rgb(65, 167, 170);
+    cursor: pointer;
+}
+.pro{
+    text-align: center;
+}
+.about{
+    text-align: center;
+    padding: 25px;
+}
+.contact{
+    text-align: center;
+    background-color: rgb(29, 68, 153);
+    color: white;
+    padding: 30px;
+    line-height: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    cursor:default;
+}
